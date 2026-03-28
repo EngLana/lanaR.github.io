@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./media/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Brush Script MT';
+    background-color: #bb99ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #d9d2ff;
+    padding: 0.5vw;
+}
+
+nav .nav-link {
+    color: #522d9b;
+    font-weight: bold;
+}
+
+.PersonalInfo{
+    display: flex;
+    width: 60%;
+    margin: 48px auto;
+    background-color: #ece3ff;
+    padding: 32px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+div.profImg img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+}
+
+.Education{
+    display: flex;
+    width: 60%;
+    margin: 48px auto;
+    background-color: #ece3ff;
+    padding: 32px;
+    border-radius: 8px;
+    font-weight: bold;
+    gap: 2vw;
+}
+
+.Projects{
+    width: 60%;
+    margin: 48px auto;
+    background-color: #ece3ff;
+    padding: 32px;
+    border-radius: 8px;
+    display: block;
+}
+
+.ProjBox{
+    display: flex ;
+    padding: 3vw;
+    justify-content: center;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    
+}
+
+footer {
+    display: block;
+    background-color: #d9d2ff;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+h2{
+    font-family: Georgia, serif;
+}
+
+
+h5.card-title{
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: medium;
+}
+ 
+
+p,
+li{
+    font-family: sans-serif;
+    color: #1b0742;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .PersonalInfo,
+    .Projects {
+        width: 90%;
+        margin: 20px auto;
+        padding: 1vw;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .Education {
+        width: 90%;
+        margin: 20px auto;
+        padding: 1vw;
+        display: block;
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .ProjBox {
+        display: block;
+        padding: 2vw;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    p.card-text {
+        font-size: small;
+    }
+
+    nav {
+       font-size: small;
+    }
+    
+}
+
+
+@media (min-width: 577px) and (max-width: 992px){
+    .Education {
+        margin: 20px auto;
+        padding: 20px;
+        display: block;
+        
+    }
+
+    .PersonalInfo,
+    .Education,
+    .Projects {
+        width: 90%;
+    }
+
+
+     p.card-text {
+        font-size: small;
+    }
+      
+    div.profImg img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    position: relative;
+    left: -10px;
+}
+    
+}
